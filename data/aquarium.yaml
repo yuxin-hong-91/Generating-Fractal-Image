@@ -1,0 +1,6 @@
+train: ./images/train
+val: ./images/valid
+test: ./images/test
+
+nc: 7
+names: ['fish', 'jellyfish', 'penguin', 'puffin', 'shark', 'starfish', 'stingray']
