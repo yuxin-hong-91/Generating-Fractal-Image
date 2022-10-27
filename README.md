@@ -4,7 +4,7 @@
 Weights can be download at: https://drive.google.com/drive/folders/1ClRGPsX_S4vGXCeHx9ibJMfaOvPHJf79?usp=sharing
 
 ## Searched Objects
-Some of searched objects can be viewed and download at: 
+Some of searched objects can be viewed and download at: https://drive.google.com/drive/folders/1Fk16MrW9GTCjbSh991ldc9qf7TraZDp7?usp=sharing
 
 ## Search
 Run object_detection.py
