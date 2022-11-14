@@ -1,11 +1,5 @@
 # Generating Fractal Image
 
-## Weights
-Weights can be download at: https://drive.google.com/drive/folders/1ClRGPsX_S4vGXCeHx9ibJMfaOvPHJf79?usp=sharing
-
-## Searched Objects
-Some of searched objects can be viewed and download at: https://drive.google.com/drive/folders/1Fk16MrW9GTCjbSh991ldc9qf7TraZDp7?usp=sharing
-
 ## Search
 Run object_detection.py
 ```python
@@ -20,7 +14,14 @@ apply_canny = False  #@param [True, False]
 ```
 
 ## Fractal Generation
-Run Generate Fractals.ipynb
+Run `Generate Fractals.ipynb`.
 
 ## Model Inference
-Run inference.ipynb
+Run `inference.ipynb`.
+
+# Updates
+
+* `imagenet_detection.py`: Apply VGG16 pretrained on ImageNet100 while fractals detection. 
+* `train script - cifar100.ipynb`: Train varies models(in `cifarEdgesModel.py` and `resnet50`, `EfficientNetB0` from `tensorflow.keras.applications`) with CIFAR100 dataset. 
+* `Model Test.ipynb`: Test trained model, plot probability bar chat and Grad-CAM.
+* `cifar_detection`: Apply trained model on while fractals detection. 
