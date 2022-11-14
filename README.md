@@ -19,7 +19,7 @@ apply_canny = False  #@param [True, False]
 
 # Updates
 
-## Try on IamgeNet
+## Try on IamgeNet100
 * `imagenet_detection.py`: Apply VGG16 pretrained on ImageNet100 while fractals detection. 
 
 ## Try on CIFAR100
